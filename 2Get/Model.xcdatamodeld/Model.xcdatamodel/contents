@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E266" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MakeItemEntity" representedClassName="MakeItemEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="item" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MakeSectionEntity" representedClassName="MakeSectionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="expanded" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sectionname" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ViewItemEntity" representedClassName="ViewItemEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="detail" optional="YES" attributeType="String"/>
+        <attribute name="hasDetail" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="strikethrough" optional="YES" attributeType="Boolean" minValueString="0" maxValueString="1" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="MakeItemEntity" positionX="51.45703125" positionY="-240.96875" width="128" height="73"/>
+        <element name="MakeSectionEntity" positionX="-27" positionY="-171" width="128" height="73"/>
+        <element name="ViewItemEntity" positionX="-154.69921875" positionY="-225.9765625" width="128" height="118"/>
+    </elements>
+</model>
